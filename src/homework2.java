@@ -43,15 +43,15 @@ public class homework2 {
             System.out.println("Ребенок может катататься без сопровождения взрослых");
         }
 
-        int one =1;
-        int two = 2;
         int three = 3;
-        if (one==two) {
-            System.out.println("1 = 2 ");}
-        else if (two==three){
-            System.out.println(" 2 = 3"); }
-        else if (three==three){
-            System.out.println("3 самое больше число"); }
+        int two = 2;
+        int one = 1;
+        if (one>two && one>three) {
+            System.out.println("Первое число самое большое"); }
+        else if (two>one && two>three)
+        {System.out.println("Второе число самое большое"); }
+        else if (three>two && three>one){
+            System.out.println("Третье число самое большое"); }
 
 
 
