@@ -1,5 +1,5 @@
 
-public class Main {
+public class massive {
     public static void main(String[] args) {
         //целочисленный массив заполненый 3 цифрами
         int weight[] = new int[]{1, 2, 3};
